@@ -16,6 +16,10 @@ header{
     margin: 1rem;
 }
 
+[class*=col]{
+    border: 2px solid red;
+}
+
 .col-4{
     height: 100px;
     background-color: white;
@@ -39,4 +43,25 @@ header{
 .col-12{
     background-color: blueviolet;
     height: 300px;
+}
+
+.portfolio{
+    background-color: beige;
+}
+
+.about{
+    background-color: #1ABC9C;
+}
+
+.contact-me{
+    background-color: white;
+}
+
+.location{
+    background-color: lightgray;
+}
+
+footer{
+    background-color: #2C3E50;
+    height: 200px;
 }
