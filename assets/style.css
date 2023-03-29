@@ -1,67 +1,12 @@
 nav{
-    min-height: 90px;
     background-color: #2C3E50;
 }
 
-header{
+header, .about{
     background-color: #1ABC9C;
 }
 
-.container{
-    border: 1px solid black;
-}
-
-.row{
-    justify-content: center;
-    margin: 1rem;
-}
-
-[class*=col]{
-    border: 2px solid red;
-}
-
-.col-4{
-    height: 100px;
-    background-color: white;
-}
-
-.col-8{
-    background-color: gold;
-    height: 50px;
-}
-
-.col-6{
-    background-color: salmon;
-    height: 50px;
-}
-
-.col-10{
-    background-color: aqua;
-    height: 50px;
-}
-
-.col-12{
-    background-color: blueviolet;
-    height: 300px;
-}
-
-.portfolio{
-    background-color: beige;
-}
-
-.about{
-    background-color: #1ABC9C;
-}
-
-.contact-me{
-    background-color: white;
-}
-
-.location{
-    background-color: lightgray;
-}
-
-footer{
-    background-color: #2C3E50;
-    height: 200px;
+.portfolio .contents {
+	height: 250px;
+	background-color: brown;
 }
