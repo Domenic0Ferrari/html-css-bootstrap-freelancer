@@ -16,7 +16,7 @@
 <body>
     <!-- header -->
     <header>
-        <nav class="navbar navbar-expand-md bg-dark justify-content-s" data-bs-theme="dark">
+        <nav class="navbar navbar-expand-md bg-dark justify-content-s fixed-top" data-bs-theme="dark">
             <div class="container">
             <a class="navbar-brand" href="#">START BOOTSTRAP</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -38,7 +38,7 @@
             </div>
         </nav>
 
-        <section class="py-4 text-light text-center">
+        <section class="py-4 text-light text-center mt-5">
             <div class="container">
                 <div class="row">
                     <div class="col-6 mx-auto col-md-4 col-lg-4">
@@ -120,7 +120,7 @@
             </div>
         </section>
         <!-- contact me  -->
-        <section class="contact-me">
+        <section class="contact-me mb-5">
             <div class="container">
                 <h2 class="text-center my-3">CONTACT ME</h2>
                 <div class="mb-3">
@@ -139,10 +139,40 @@
                     <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                     <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                 </div>
+                <button type="button" class="btn send">Send</button>
             </div>
         </section>
         <!-- location  -->
-        <section class="location">
+        <section class="location py-5">
+            <div class="container">
+                <div class="row g-3 text-light text-center">
+                    <div class="col-12 col-md-4 mb-2">
+                        <h3>LOCATION</h3>
+                        <p>2215 John Daniel Drive Clark, MO 54243</p>
+                    </div>
+                    <div class="col-12 col-md-4 mb-2">
+                        <h3>AROUND THE WEB</h3>
+                        <div class="container d-flex justify-content-center">
+                            <div class="circle mx-2">
+                                <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="circle mx-2">
+                                <i class="fa-brands fa-google" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="circle mx-2">
+                                <i class="fa-brands fa-twitter" style="color: #ffffff;"></i>
+                            </div>
+                            <div class="circle mx-2">
+                                <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 mb-2">
+                        <h3>ABOUT FREELANCER</h3>
+                        <p>Freelance is a free to use, open source Bootstrap theme created by <span class="green">Start Bootstrap</span></p>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
     <!-- footer -->
