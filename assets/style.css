@@ -25,3 +25,9 @@ header, .about, .send{
 .green{
     color: #1ABC9C;
 }
+
+footer{
+    background-color: #2C3E50;
+    height: 100px;
+    line-height: 100px;
+}
