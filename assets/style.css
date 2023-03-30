@@ -40,6 +40,12 @@ footer{
 
 .black{
     height: 3px;
-    width: 25%;
+    width: 10%;
     background-color: black;
+}
+
+.white-2{
+    height: 3px;
+    width: 5%;
+    background-color: white;
 }
